@@ -29,6 +29,7 @@ nav ul li a {
 	font-family: fantasy;
 	color: #1a1a1a;
 	font-size: 60px;
+	padding-top: 20px;
 }
 .text-container p:nth-child(2) {
 	font-family: monospace;
@@ -40,14 +41,14 @@ nav ul li a {
 	margin: 45px 0px 25px;
 	padding-left: 80px;
 }
-.text-container {
+/* .text-container {
 	position: absolute;
 	left: 13%;
 	right: 42%;
-}
-.negin {
+} */
+/* .negin {
 	position: absolute;
 	bottom: 400px;
 	left: 50%;
 	transform: translateX(-70%);
-}
+} */
