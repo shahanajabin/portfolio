@@ -48,7 +48,6 @@ nav ul li a {
 } */
 .negin {
 	position: absolute;
-	bottom: 300px;
 	left: 20%;
 	transform: translateX(-70%);
 }
