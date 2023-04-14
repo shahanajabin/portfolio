@@ -52,7 +52,7 @@ nav ul li a {
 	padding-left: 80px;
 }
 .about-container {
-	width: 80%;
+	width: 90%;
 	height: 350px;
 	background-color: #ffffff;
 	border-radius: 20px;
@@ -67,7 +67,7 @@ nav ul li a {
 	padding-left: 40px;
 }
 .about-text {
-	width: 400px;
+	width: 300px;
 }
 .about {
 	font-family: american typewriter;
