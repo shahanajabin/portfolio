@@ -49,6 +49,29 @@ nav ul li a {
 	padding-left: 80px;
 }
 .neghin {
-	position: absolute;
 	padding-left: 80px;
+}
+.about-container {
+	width: 70%;
+	height: 300px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-left: 100px;
+}
+.about-container img {
+	height: 230px;
+	padding-left: 100px;
+}
+.about-text {
+	width: 400px;
+}
+.about {
+	font-family: american typewriter;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
 }
