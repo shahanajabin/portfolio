@@ -1,6 +1,18 @@
 body {
 	background-color: linen;
-	margin: 0px;
+}
+ul {
+	list-style: none;
+}
+h1 {
+	font-family: didot;
+	margin-left: 40px;
+}
+a {
+	text-decoration: none;
+	font-family: monospace;
+	font-size: large;
+	color: black;
 }
 nav {
 	display: flex;
@@ -16,13 +28,8 @@ nav ul {
 }
 nav ul li a {
 	margin: 30px;
-	font-family: myriad pro regular;
-	color: #505050;
-	font-size: 15px;
-	font-weight: 700;
 }
 .active {
-	font-weight: bold;
 	color: #2d2a2a;
 }
 .text-container p:nth-child(1) {
@@ -41,13 +48,7 @@ nav ul li a {
 	margin: 45px 0px 25px;
 	padding-left: 80px;
 }
-/* .text-container {
-  position: absolute;
-  left: 13%;
-  right: 42%;
-} */
-.negin {
+.neghin {
 	position: absolute;
-	left: 20%;
-	transform: translateX(-70%);
+	padding-left: 80px;
 }
