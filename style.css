@@ -1,12 +1,24 @@
 body {
 	background-color: linen;
-	margin: 0px;
+}
+h1 {
+	font-family: didot;
+	margin-left: 40px;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	font-family: monospace;
+	font-size: large;
+	color: black;
 }
 nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 80px;
+	height: 60px;
 	background-color: #ffffff;
 	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 	padding: 0px 5%;
@@ -16,38 +28,27 @@ nav ul {
 }
 nav ul li a {
 	margin: 30px;
-	font-family: myriad pro regular;
-	color: #505050;
-	font-size: 15px;
-	font-weight: 700;
-}
-.active {
-	font-weight: bold;
-	color: #2d2a2a;
 }
 .text-container p:nth-child(1) {
 	font-family: fantasy;
-	color: #1a1a1a;
-	font-size: 60px;
-	padding-top: 50px;
+	font-size: 50px;
+	margin-left: 50px;
 }
 .text-container p:nth-child(2) {
 	font-family: monospace;
 	font-size: 25px;
-	padding-left: 200px;
+	margin-left: 250px;
 }
 .text-container p {
 	line-height: 0px;
 	margin: 45px 0px 25px;
-	padding-left: 80px;
 }
-/* .text-container {
+.text-container {
 	position: absolute;
-	left: 13%;
-	right: 42%;
-} */
-.negin {
-	position: absolute;
-	left: 20%;
-	transform: translateX(-70%);
+	top: 50%;
+	transform: translate(-13%, -42%);
+}
+.pic {
+	padding-left: 500px;
+	width: 70%;
 }
